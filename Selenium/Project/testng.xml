@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumProjectTest" thread-count="2" parallel="classes">
+
+    <test name="testngTest">
+        <classes>
+        	<class name="Selenium_Project.Test_Alchemy_Jobs"/>
+        	<class name="Selenium_Project.adminLogin"/>
+        	
+        </classes>
+    </test>
+</suite>
